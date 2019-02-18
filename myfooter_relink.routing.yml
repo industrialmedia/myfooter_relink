@@ -1,0 +1,85 @@
+# Entity
+entity.myfooter_relink.collection:
+  path: '/admin/seo/myfooter_relink/list'
+  defaults:
+    _entity_list: 'myfooter_relink'
+    _title: 'MyfooterRelink'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.myfooter_relink.add_form:
+  path: '/admin/seo/myfooter_relink/list/add'
+  defaults:
+    _entity_form: 'myfooter_relink.add'
+    _title: 'Add MyfooterRelink'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.myfooter_relink.edit_form:
+  path: '/admin/seo/myfooter_relink/list/{myfooter_relink}'
+  defaults:
+    _entity_form: 'myfooter_relink.edit'
+    _title: 'Edit MyfooterRelink'
+  requirements:
+    _permission: 'administer site configuration'
+
+entity.myfooter_relink.delete_form:
+  path: '/admin/seo/myfooter_relink/list/{myfooter_relink}/delete'
+  defaults:
+    _entity_form: 'myfooter_relink.delete'
+    _title: 'Delete MyfooterRelink'
+  requirements:
+    _permission: 'administer site configuration'
+    
+
+
+# Conditions
+myfooter_relink.condition_select:
+  path: '/admin/seo/myfooter_relink/list/{myfooter_relink}/condition/select'
+  defaults:
+    _controller: '\Drupal\myfooter_relink\Controller\MyfooterRelinkConditionController::selectCondition'
+    _title: 'Select condition'
+  requirements:
+    _permission: 'administer site configuration'
+
+myfooter_relink.condition_add:
+  path: '/admin/seo/myfooter_relink/list/{myfooter_relink}/condition/add/{condition_id}'
+  defaults:
+    _form: '\Drupal\myfooter_relink\Form\ConditionAddForm'
+    _title: 'Add new condition'
+  requirements:
+    _permission: 'administer site configuration'
+
+myfooter_relink.condition_edit:
+  path: '/admin/seo/myfooter_relink/list/{myfooter_relink}/condition/edit/{condition_id}'
+  defaults:
+    _form: '\Drupal\myfooter_relink\Form\ConditionEditForm'
+    _title: 'Edit Condition'
+  requirements:
+    _permission: 'administer site configuration'
+
+myfooter_relink.condition_delete:
+  path: '/admin/seo/myfooter_relink/list/{myfooter_relink}/condition/delete/{condition_id}'
+  defaults:
+    _form: '\Drupal\myfooter_relink\Form\ConditionDeleteForm'
+    _title: 'Delete condition'
+  requirements:
+    _permission: 'administer site configuration'
+    
+    
+
+
+myfooter_relink.admin.settings:
+  path: '/admin/seo/myfooter_relink/settings'
+  defaults:
+    _title: 'Настройки'
+    _form: 'Drupal\myfooter_relink\Form\MyfooterRelinkSettingsForm'
+  requirements:
+    _permission: 'administer site configuration'
+
+
+
+
+
+
+

@@ -1,0 +1,10 @@
+entity.myfooter_relink.collection:
+  route_name: entity.myfooter_relink.collection
+  base_route: entity.myfooter_relink.collection
+  title: Список
+
+myfooter_relink.admin.settings:
+  route_name: myfooter_relink.admin.settings
+  base_route: entity.myfooter_relink.collection
+  title: Настройки
+  weight: 10

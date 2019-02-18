@@ -1,0 +1,6 @@
+services:
+  myfooter_relink.evaluator:
+    class: Drupal\myfooter_relink\MyfooterRelinkEvaluator
+    arguments: ['@context.handler', '@context.repository', '@entity_type.manager']
+
+

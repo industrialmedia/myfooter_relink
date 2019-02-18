@@ -1,0 +1,20 @@
+<?php
+
+
+
+
+/**
+ * Implements hook_theme().
+ */
+function myfooter_relink_theme() {
+  return [
+    'myfooter_relink' => [
+      'variables' => [
+        'items' => [],
+        'attributes' => [],
+      ],
+    ],
+  ];
+}
+
+

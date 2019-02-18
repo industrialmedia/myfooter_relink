@@ -1,0 +1,6 @@
+entity.myfooter_relink.add_form:
+  route_name: 'entity.myfooter_relink.add_form'
+  title: 'Add MyfooterRelink'
+  appears_on:
+    - entity.myfooter_relink.collection
+

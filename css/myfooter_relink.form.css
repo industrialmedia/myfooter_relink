@@ -1,0 +1,42 @@
+
+
+.myfooter-relink-form table {
+  width: 100%;
+}
+.myfooter-relink-form table tr {
+  border: none;
+  padding: 0;
+  margin: 0;
+
+}
+.myfooter-relink-form table tr th {
+  padding: 5px;
+  background: none;
+  border: none;
+  text-transform: none;
+}
+.myfooter-relink-form table tr td {
+  padding: 5px;
+}
+
+
+.myfooter-relink-form table tr td input[type="text"] {
+  width: 490px;
+}
+
+.myfooter-relink-form .row-wrapper {
+  border-bottom: 2px dotted #bfbfba;
+  margin-bottom: 17px;
+  padding-bottom: 7px;
+  width: 1000px;
+}
+.myfooter-relink-form .row-wrapper .form-actions {
+  text-align: right;
+  padding-right: 0px;
+}
+.myfooter-relink-form .row-wrapper .form-actions input[type="submit"] {
+  padding: 1px 12px;
+  font-size: 12px;
+  font-weight: 100;
+}
+

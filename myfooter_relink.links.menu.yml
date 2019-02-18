@@ -1,0 +1,11 @@
+entity.myfooter_relink.collection:
+  title: 'Футерна перелинковка'
+  description: 'Блок футерной перелинковки'
+  route_name: entity.myfooter_relink.collection
+  parent: myapi.seo
+  weight: 10
+
+
+
+
+
